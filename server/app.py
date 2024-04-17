@@ -28,3 +28,24 @@ def show_session(key):
 if __name__ == '__main__':
     app.run(port=5555)
     
+
+
+
+
+
+'''The response in the browser will be:
+{
+  "cookies": [
+    {
+      "mouse": "Cookie"
+    },
+    {
+      "session": "eyJnb29kbmlnaHQiOiJNb29uIiwiaGVsbG8iOiJXb3JsZCJ9.Y3KXKQ.oTqGI6rmhKDNLizZaHfJadRybUc"
+    }
+  ],
+  "session": {
+    "session_accessed": true,
+    "session_key": "hello",
+    "session_value": "World"
+  }
+}'''
